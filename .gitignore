@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+*.deb
+*.deb.*
+*.log
+.env
+.env.*
+.DS_Store

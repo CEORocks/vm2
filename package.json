@@ -1,0 +1,23 @@
+{
+  "name": "ai-multi-agent-system",
+  "version": "1.0.0",
+  "description": "Production AI Multi-Agent System with Researcher, Writer, and Tooling Ecosystem",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": ["ai", "agents", "researcher", "writer", "multi-agent", "typescript"],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
